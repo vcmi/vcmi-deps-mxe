@@ -22,6 +22,7 @@ mxe-$MXE_TARGET-sdl2-ttf \
 mxe-$MXE_TARGET-ffmpeg \
 mxe-$MXE_TARGET-qt \
 mxe-$MXE_TARGET-qtbase \
+mxe-$MXE_TARGET-intel-tbb \
 mxe-i686-w64-mingw32.static-luajit
 
 sudo apt-key del 86B72ED9
