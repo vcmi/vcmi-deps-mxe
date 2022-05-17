@@ -4,7 +4,7 @@ export MIRROR_DATE=`date +"%Y-%m-%d"`
 
 sudo apt-get clean
 
-echo "deb http://pkg.mxe.cc/repos/apt trusty main" \
+echo "deb http://pkg.mxe.cc/repos/apt focal main" \
     | sudo tee /etc/apt/sources.list.d/mxeapt.list
 
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 86B72ED9
